@@ -1,0 +1,252 @@
+/* CSS APLICADO AL HEADER Y AL NAV */
+* {
+    margin: 0;
+}
+.navbar-main {
+    width: 100%;
+    margin: auto;
+}
+
+.navbar-main ul {  
+    display: inline-block;
+    float: right;
+}
+.navbar-main ul li  {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+.navbar-main ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(56, 55, 55);
+}
+
+.navbar-main ul li button a {
+    color: white;
+}
+
+.navbar-main ul li button a:hover {
+    text-decoration: none;
+    
+}
+
+
+.navbar-main ul li a:hover {
+    text-decoration: underline;
+}
+
+.material-icons-apps {
+    position: relative;
+    top: 9px;
+    font-size: 24px;
+}
+
+.material-icons-apps:hover {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.308);
+    
+}
+
+/* CSS APLICADO AL MAIN */
+
+main img{
+    padding: 60px 0px 0px 500px;
+    
+}
+
+main img {
+    margin: auto;
+}
+
+.buscador-principal {
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: rgba(128, 128, 128, 0.205);
+    width: 600px;
+    height: 50px;
+    
+    
+}
+
+.buscador-principal:hover {
+    
+    border-color: rgba(121, 114, 114, 0.068);
+    box-shadow: 5px 10px 12px -12px rgba(128,121,121,0.75);
+-webkit-box-shadow: 5px 10px 12px -12px rgba(128,121,121,0.75);
+-moz-box-shadow: 5px 10px 12px -12px rgba(128,121,121,0.75);
+    
+}
+
+
+.buscador-input {
+    position: absolute;
+    top: 185px;
+    margin: auto;
+    width: 490px;
+    padding: 10px;
+    border:none;
+    border-radius: 0px;
+}
+
+.buscador-input:focus {
+    outline: none;
+}
+
+.material-icons-search {
+    color: gray;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.material-icons-search:hover {
+    background-color: none;
+}
+
+.material-icons-mic {
+    left: 940px;
+    position: absolute;
+    color: gray;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.material-icons-mic:hover {
+    background-color: none;
+}
+
+/* CSS BOTONES */
+
+.btn {
+    padding: 10px;
+    width: 160px;
+    border: none;
+}
+
+.btn-login {
+    width: 130px;
+    background-color: rgba(6, 91, 219, 0.849);
+    color: rgb(248, 248, 248);
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.btn-login:hover {
+    background-color: rgba(6, 91, 219, 0.8);
+}
+
+
+.btn-google {
+    border: 1.5px solid rgba(128, 128, 128, 0);
+    margin: 30px 10px 0px 480px;
+    left:20px;
+    background-color: rgba(212, 237, 238, 0.164);
+    
+}
+
+.btn-google:hover {
+    border-color: rgba(128, 128, 128, 0.281);
+}
+
+
+.btn-suerte {
+    border: 1.5px solid rgba(128, 128, 128, 0);
+    margin: auto;
+    left:20px;
+    background-color: rgba(212, 237, 238, 0.164);
+    
+}
+
+.btn-suerte:hover {
+    border-color: rgba(128, 128, 128, 0.281);
+}
+
+
+button a {
+    color: rgb(34, 33, 33);
+    text-decoration: none;
+    font-size:14px;
+}
+
+/* CSS PARA CITAS DE GOOGLE ESPAÑOL - QUECHUA */
+
+.citas {
+    display: inline-flex;
+    margin: 30px 0px 0px 435px;
+}
+
+.citas ul {
+    display: inline-flex;
+}
+.citas ul li {
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.citas ul li a {
+    
+    padding-left: 10px;
+    text-decoration: none;
+    color: rgb(53, 20, 197)
+}
+
+.citas ul li a:hover {
+    
+    text-decoration: underline;
+}
+
+/* CSS FOOTER */
+
+footer {
+    width: 100%;
+    height: 93px;
+    font-size: 14px;
+    font-family: arial;
+    margin: 220px 0px 0px 0px;
+    background-color: rgba(180, 178, 178, 0.151);
+}
+
+footer header {
+    color: rgba(83, 82, 82, 0.842);
+    padding:15px;
+    margin-left: 25px;
+    
+}
+
+hr {
+    color: rgba(233, 227, 227, 0.808);
+}
+
+.navbar-secundario {
+    list-style-type: none;
+}
+.navbar-secundario li {
+    display: inline-block;
+    
+}
+
+.navbar-secundario li a {
+  
+    padding:10px;
+    text-decoration: none;
+    color: rgba(83, 82, 82, 0.842);
+}
+
+
+.navbar-secundario li a:hover {
+    text-decoration: underline;
+}
+
+.navbar-secundario-left {
+    float: left;
+    margin: 15px 0px 0px 0px;
+}
+.navbar-secundario-right {
+    float: right;
+    margin: 15px 0px 0px 0px;
+}
